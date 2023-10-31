@@ -63,9 +63,8 @@ HAVING average_department_salary > 9000;
 
 
 
-# 3. First find out all the employee who's salary is greater than 10000 and 
-# then see what is the average department salary and give me those depatments whose having
-# the salary is more than 10000.
+# 3. First, find employees with salaries over 10000.Then, calculate the average salary for each department.
+# Finally, give me a list of departments where the salaries are more than 10000.
 -------------------------------------------------------------------------
 SELECT department_id, AVG(salary) AS average_department_salary
 FROM ankitbansal.employee
